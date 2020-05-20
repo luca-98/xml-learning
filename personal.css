@@ -12,6 +12,7 @@ header, person{
 header{
     border: 1px solid;
     font-weight: bold;
+    background-color: rgb(192, 196, 195);
 }
 
 name,phone,email,dateofBirth{
@@ -28,7 +29,7 @@ person{
 
 name{
     width: 25%;
-    
+}
 
 person name{
     font-weight: bold;
