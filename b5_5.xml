@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<package>
+    <name>Grandma Deitel’s Cookies</name>
+    <calories>260</calories>
+    <fat_calories>100</fat_calories>
+    <fat>11</fat>
+    <saturated_fat>2</saturated_fat>
+    <cholesterol>5</cholesterol>
+    <sodium>210</sodium>
+    <total_carbohydrates>36</total_carbohydrates>
+    <fiber>2</fiber>
+    <sugars>15</sugars>
+    <protein>5</protein>
+</package>
