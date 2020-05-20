@@ -1,0 +1,36 @@
+personal{
+    width: 80%;
+    margin: 20px auto;
+}
+
+header, person{
+    display: flex;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+header{
+    border: 1px solid;
+    font-weight: bold;
+}
+
+name,phone,email,dateofBirth{
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+person{
+    border: 1px solid;
+    border-top: none;  
+}
+
+name{
+    width: 25%;
+    
+
+person name{
+    font-weight: bold;
+    color: tomato;
+}
