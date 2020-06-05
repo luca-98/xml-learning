@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema version="1.0"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           elementFormDefault="qualified">
-    
+<xs:schema version="1.0" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
     <xs:element name="person_list">
+
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="person" minOccurs="1" maxOccurs="unbounded">
+
                     <xs:complexType>
                         <xs:sequence>
+
                             <xs:element name="name" type="xs:string"/>
+
                             <xs:element name="gender">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -18,9 +21,12 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+
                             <xs:element name="contact">
+
                                 <xs:complexType>
                                     <xs:sequence>
+
                                         <xs:element name="phone">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -28,6 +34,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
+
                                         <xs:element name="email">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -35,10 +42,14 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
+
                                         <xs:element name="address" type="xs:string"/>
+
                                     </xs:sequence>
                                 </xs:complexType>
+
                             </xs:element>
+
                         </xs:sequence>
                         <xs:attribute name="id">
                             <xs:simpleType>
@@ -48,9 +59,11 @@
                             </xs:simpleType>
                         </xs:attribute>
                     </xs:complexType>
+
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+
     </xs:element>
 
 </xs:schema>

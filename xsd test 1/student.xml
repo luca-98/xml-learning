@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<student_list xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='student.xsd' >
+    <student roll="SE09124">
+        <name>Nguyễn Văn Hoàng</name>
+        <phone>0982423433</phone>
+        <email>hoangnvse09124@fpt.edu.vn</email>
+        <courses>
+            <course code="PRO192">
+                <name>Object Oriented Programming in Java</name>
+                <credit>3</credit>
+                <score>8</score>
+            </course>
+            <course code="PRJ311">
+                <name>Java Desktop Programming</name>
+                <credit>3</credit>
+                <score>7</score>
+            </course>
+            <course code="PRJ321">
+                <name>Web Programming in Java</name>
+                <credit>3</credit>
+                <score>9</score>
+            </course>
+            <course code="PRM391">
+                <name>Mobile Progrmming with Android</name>
+                <credit>3</credit>
+                <score>8</score>
+            </course>
+        </courses>
+    </student>
+    <student roll="SE02934">
+        <name>Lê Thu Phương</name>
+        <phone>0923544382</phone>
+        <email>phuongltse02934@fpt.edu.vn</email>
+        <courses>
+            <course code="PRO192">
+                <name>Object Oriented Programming in Java</name>
+                <credit>3</credit>
+                <score>5</score>
+            </course>
+            <course code="PRJ311">
+                <name>Java Desktop Programming</name>
+                <credit>3</credit>
+                <score>8</score>
+            </course>
+            <course code="PRJ321">
+                <name>Web Programming in Java</name>
+                <credit>3</credit>
+                <score>7</score>
+            </course>
+            <course code="PRM391">
+                <name>Mobile Progrmming with Android</name>
+                <credit>3</credit>
+                <score>6.5</score>
+            </course>
+        </courses>
+    </student>
+    <student roll="SE04544">
+        <name>Bùi Thúy Nguyên</name>
+        <phone>0912984534</phone>
+        <email>nguyenbtse04544@fpt.edu.vn</email>
+        <courses>
+            <course code="PRO192">
+                <name>Object Oriented Programming in Java</name>
+                <credit>3</credit>
+                <score>5</score>
+            </course>
+            <course code="PRJ311">
+                <name>Java Desktop Programming</name>
+                <credit>3</credit>
+                <score>7</score>
+            </course>
+            <course code="PRJ321">
+                <name>Web Programming in Java</name>
+                <credit>3</credit>
+                <score>8</score>
+            </course>
+            <course code="PRM391">
+                <name>Mobile Progrmming with Android</name>
+                <credit>3</credit>
+                <score>9</score>
+            </course>
+        </courses>
+    </student>
+</student_list>

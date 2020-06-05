@@ -34,7 +34,9 @@
                     }
                 </style>
                 <title>Employees</title>
-                <body>
+               
+            </head>
+             <body>
                     <table id="employee" border="1px">
                         <tr>
                             <th colspan="2">Department</th>
@@ -75,7 +77,6 @@
                         </xsl:for-each>
                     </table>
                 </body>
-            </head>
         </html>
     </xsl:template>
 </xsl:stylesheet>

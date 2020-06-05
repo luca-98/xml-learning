@@ -1,0 +1,52 @@
+<breakfast_menu xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='foods.xsd'>
+    <food>
+        <name>Belgian Waffles</name>
+        <price>$5.95</price>
+        <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+        <calories>650</calories>
+        <!-- expire date -->
+        <exp>2022-02-07</exp>
+        <!-- manufacture date -->
+        <mfg>2019-02-07</mfg>
+    </food>
+    <food>
+        <name>Strawberry Belgian Waffles</name>
+        <price>$7.95</price>
+        <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+        <calories>900</calories>
+        <!-- expire date -->
+        <exp>2022-02-07</exp>
+        <!-- manufacture date -->
+        <mfg>2019-02-07</mfg>
+    </food>
+    <food>
+        <name>Berry-Berry Belgian Waffles</name>
+        <price>$8.95</price>
+        <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+        <calories>900</calories>
+        <!-- expire date -->
+        <exp>2024-04-27</exp>
+        <!-- manufacture date -->
+        <mfg>2020-04-27</mfg>
+    </food>
+    <food>
+        <name>French Toast</name>
+        <price>$4.50</price>
+        <description>Thick slices made from our homemade sourdough bread</description>
+        <calories>600</calories>
+        <!-- expire date -->
+        <exp>2022-02-07</exp>
+        <!-- manufacture date -->
+        <mfg>2019-02-07</mfg>
+    </food>
+    <food>
+        <name>Homestyle Breakfast</name>
+        <price>$6.95</price>
+        <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+        <calories>950</calories>
+        <!-- expire date -->
+        <exp>2021-05-17</exp>
+        <!-- manufacture date -->
+        <mfg>2018-05-17</mfg>
+    </food>
+</breakfast_menu>
