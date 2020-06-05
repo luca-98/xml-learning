@@ -9,6 +9,7 @@
             </head>
             <body>
                 <demo:for-each select="productlist/product">
+                <demo:sort select="price" order="descending"/>
                     <div style="display:block;border:1px solid red">
                         <h2>
                             <demo:value-of select="name"/>
