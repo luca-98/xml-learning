@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<employees>
+    <employee code="EMP001">
+        <name>Nguyễn Văn Hoàng</name>
+        <gender>Nam</gender>
+        <phone>0982423433</phone>
+        <email>hoangnvse09124@fpt.edu.vn</email>
+        <address>Hải Dương</address>
+        <department>
+            <code>HC</code>
+            <name>Hành Chính</name>
+        </department>            
+    </employee>
+    <employee code="EMP002">
+        <name>Lê Lan Phương</name>
+        <gender>Nữ</gender>
+        <phone>0912464343</phone>
+        <email>phuong@gmail.com</email>
+        <address>Thái Bình</address>
+        <department>
+            <code>NS</code>
+            <name>Nhân Sự</name>
+        </department>            
+    </employee>
+    <employee code="EMP003">
+        <name>Nguyễn Thị Như Ý</name>
+        <gender>Nữ</gender>
+        <phone>0912384625</phone>
+        <email>y@gmail.com</email>
+        <address>Nghệ An</address>
+        <department>
+            <code>NS</code>
+            <name>Nhân Sự</name>
+        </department>            
+    </employee>
+    <employee code="EMP004">
+        <name>Trần Quốc Cường</name>
+        <gender>Nam</gender>
+        <phone>0912349728</phone>
+        <email>cuong@gmail.com</email>
+        <address>Cà Mau</address>
+        <department>
+            <code>NS</code>
+            <name>Nhân Sự</name>
+        </department>            
+    </employee>
+    <employee code="EMP005">
+        <name>Nguyễn Thị Quỳnh</name>
+        <gender>Nữ</gender>
+        <phone>0912342532</phone>
+        <email>quynh@gmail.com</email>
+        <address>Quảng Ninh</address>
+        <department>
+            <code>NS</code>
+            <name>Nhân Sự</name>
+        </department>            
+    </employee>
+</employees>
