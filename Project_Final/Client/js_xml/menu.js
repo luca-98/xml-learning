@@ -28,7 +28,7 @@
     function buildMenu() {
         /* ..............................................
                        Buld Special Menu
-                       ................................................. */
+        ................................................. */
         var Container = $('.container');
         Container.imagesLoaded(function () {
             var portfolio = $('.special-menu');
@@ -55,16 +55,11 @@
         $.ajax(settings).done(function (response) {
             if (response) {
                 const listItem = response.getElementsByTagName("item");
-                let count = 0;
                 for (const iterator of listItem) {
-                    if(count==9){
-                        break;
-                    }
                     renderMenu(iterator);
-                    count++;
                 }
                 buildMenu();
-            }else{
+            } else {
                 $('#no-item').css('display', 'flex');
             }
         }).fail(() => {

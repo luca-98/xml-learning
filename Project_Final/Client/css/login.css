@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  backdrop-filter: brightness(50%);
+  background-position: center;
+  color: white;
+  height: 100vh;
+  display: flex;
+}
+
+
+.heading-title h2 {
+  color: white !important;
+  font-size: xx-large;
+}

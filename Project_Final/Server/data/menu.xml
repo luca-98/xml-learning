@@ -20,7 +20,6 @@
         <description>temporibus dolor doloremque qui eos eaque excepturi consequatur, sequi dolorum!</description>
         <price>30</price>
     </item>
-
      <item>
         <name>lunch 1</name>
         <type>lunch</type>
@@ -42,8 +41,7 @@
         <description>temporibus dolor doloremque qui eos eaque excepturi consequatur, sequi dolorum!</description>
         <price>20</price>
     </item>
-
-      <item>
+    <item>
         <name>dinner 1</name>
         <type>dinner</type>
         <img>https%3A%2F%2Fimages.unsplash.com%2Fphoto-1512058564366-18510be2db19%3Fixlib%3Drb-1.2.1%26ixid%3DeyJhcHBfaWQiOjEyMDd9%26auto%3Dformat%26fit%3Dcrop%26w%3D1352%26q%3D80</img>
@@ -78,6 +76,4 @@
         <description>temporibus dolor doloremque qui eos eaque excepturi consequatur, sequi dolorum!</description>
         <price>20</price>
     </item>
-
-   
 </menu>
