@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contacts>
+  <contact>
+    <name>Nguyễn Đức Thiện</name>
+    <email>luca.developer.98@gmail.com</email>
+    <phone>0566662225</phone>
+    <message>Lorem Ipsum is simply dummy text of the printing and typesetting</message>
+    <id>1</id>
+    <isRead>true</isRead>
+  </contact>
+  <contact>
+    <name>Nguyễn Đức Thiện</name>
+    <email>luca.developer.98@gmail.com</email>
+    <phone>0566662225</phone>
+    <message>Lorem Ipsum is simply dummy text of the printing and typesetting</message>
+    <id>0</id>
+    <isRead>true</isRead>
+  </contact>
+</contacts>

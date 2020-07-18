@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<revervations>
+  <revervation>
+    <input_date>29 June, 2020</input_date>
+    <input_time>1:00 AM</input_time>
+    <person>5</person>
+    <name>Nguyễn Đức Thiện</name>
+    <email>luca.developer.98@gmail.com</email>
+    <phone>0566662225</phone>
+    <id>0</id>
+    <confirm>true</confirm>
+  </revervation>
+  <revervation>
+    <input_date>29 June, 2020</input_date>
+    <input_time>1:00 AM</input_time>
+    <person>2</person>
+    <name>Nguyễn Đức Thiện</name>
+    <email>noidoanhdungnhin1998@gmail.com</email>
+    <phone>234</phone>
+    <id>1</id>
+    <confirm>false</confirm>
+  </revervation>
+  <revervation>
+    <input_date>14 July, 2020</input_date>
+    <input_time>1:30 AM</input_time>
+    <person>4</person>
+    <name>Diona</name>
+    <email>luca.developer.98@gmail.com</email>
+    <phone>234</phone>
+    <id>2</id>
+    <confirm>true</confirm>
+  </revervation>
+</revervations>

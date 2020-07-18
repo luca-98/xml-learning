@@ -77,7 +77,18 @@
   font-size: x-large;
   text-transform: uppercase;
 }
-.p-top{
+.p-top {
   display: block;
   height: 100px;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.filter-button-group button{
+  height: 52px;
 }

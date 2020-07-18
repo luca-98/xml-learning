@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css">
-	<link rel="stylesheet" href="css/login.css">
+
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -43,50 +43,68 @@
 				<a class="navbar-brand" href="index.html">
 					<img src="images/logo.png" alt="" />
 				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item "><a class="nav-link" href="admin.html">Menu</a></li>
+						<li class="nav-item "><a class="nav-link" href="admin-reservation.html">Reservation</a>
+						</li>
+						<li class="nav-item active"><a class="nav-link" href="admin-message.html">Message</a></li>
+					</ul>
+					<a name="logout" id="logout" class="btn shadow-none" href="#" role="button">Logout</a>
+				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
 
 	<div class="p-top"></div>
+
 	<div class="container mt-5">
-		<div class="d-flex flex-column justify-content-center h-100">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Login</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-					</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="heading-title text-center">
+					<h2>Contact</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
 				</div>
 			</div>
-			<div class="row justify-content-center">
-				<form class="login col-12 col-md-9 col-xl-6" id="loginForm">
-					<div class="form-group">
-						<label for="">Account</label>
-						<input required data-error="Please enter your username" type="text" class="form-control"
-							name="username" id="username" placeholder="Enter your account">
-						<div class="help-block with-errors"></div>
-					</div>
-					<div class="form-group">
-						<label for="">Password</label>
-						<input required data-error="Please enter your password" type="password" class="form-control"
-							name="password" id="password" placeholder="Enter your password">
-						<div class="help-block with-errors"></div>
-					</div>
-					<div id="msgSubmit" class="h3 text-center hidden"></div>
-
-					<div class="submit-button text-right ">
-						<button class="btn bg-success text-white" id="submit" type="submit">Login</button>
-						<div class="clearfix"></div>
-					</div>
-				</form>
-			</div>
 		</div>
+		<div class="row">
+			<table class="table table-dark table-hover" id="contact-list" style="display: none;">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>email</th>
+						<th>phone</th>
+						<th>Message</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+			<div class="no-item mt-3" id="no-item">
+				No Item
+			</div>
+			<div class="load-wrapp" id="load-custom">
+				<div class="load-1">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+			</div>
 
 
+		</div>
 	</div>
-
-
 
 	<!-- ALL JS FILES -->
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -95,11 +113,10 @@
 	<!-- ALL PLUGINS -->
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>
-	<script src="js/jquery.mapify.js"></script>
 	<script src="js/form-validator.min.js"></script>
 	<!-- JS Project XML -->
 	<script src="js_xml/config.js"></script>
-	<script src="js_xml/login.js"></script>
+	<script src="js_xml/admin-message.js"></script>
 </body>
 
 </html>
